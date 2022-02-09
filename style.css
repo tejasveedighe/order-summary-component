@@ -1,0 +1,44 @@
+body {
+  background: hsl(225, 100%, 94%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card {
+  padding: 50px;
+}
+
+.container {
+  width: 400px;
+  height: 700px;
+  background: white; 
+  margin: auto;
+}
+
+.hero {
+  width: 100%;
+}
+
+.summary {
+  text-align: center;
+  padding: auto;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(225, 100%, 98%);
+  height: 100px;
+}
+
+.payment {
+  height: 40px;
+  border: 0px solid;
+  border-radius: 10px;
+  background: hsl(245, 75%, 52%);
+  text-align: center;
+
+}
