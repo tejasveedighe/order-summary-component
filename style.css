@@ -13,12 +13,12 @@ body {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .card {
-  padding: 20px 50px;
+  padding: 20px 80px;
 }
 
 .container {
-  width: 400px;
-  height: 600px;
+  width: 450px;
+  height: 650px;
   background: white; 
   margin: 10% auto;
 }
@@ -49,6 +49,10 @@ body {
   color: hsl(245, 75%, 52%);
 }
 
+.plan > a {
+  font-weight: 700;
+}
+
 .music-plan {
   display: flex;
   gap: 20px;
@@ -61,8 +65,12 @@ body {
   margin-top: 10px;
 }
 
+.music-amount>b{
+  font-weight: 900;
+}
+
 .payment {
-  margin-top: 20px;
+  margin: 0px 45px;
   border: 0px solid;
   border-radius: 10px;
   background: hsl(245, 75%, 52%);
@@ -73,9 +81,11 @@ body {
   padding: 12px;
   text-align: center;
   color: white;
+  font-weight: 700;
 }
 
 .cancel {
   text-align: center;
   padding: 30px;
+  font-weight: 700;
 }
