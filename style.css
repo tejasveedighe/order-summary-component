@@ -1,9 +1,10 @@
 * {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
+  font-weight: 500;
   border-radius: 20px;
+  color: hsl(222, 15%, 47%);
 }
-
 
 body {
   background: hsl(225, 100%, 94%);
@@ -37,6 +38,7 @@ body {
 .summary>h1 {
   font-size: 25px;
   font-weight: 900;
+  color: hsl(225, 100%, 0%);
 }
 
 .plan {
@@ -69,6 +71,7 @@ body {
 
 .music-amount>b{
   font-weight: 900;
+  color: hsl(225, 100%, 0%);
 }
 
 .payment {
@@ -90,4 +93,5 @@ body {
   text-align: center;
   padding: 30px;
   font-weight: 700;
+  color:hsl(224, 25%, 42%);
 }
