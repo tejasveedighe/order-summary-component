@@ -1,3 +1,8 @@
+* {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+
 body {
   background: hsl(225, 100%, 94%);
 }
@@ -7,14 +12,14 @@ body {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .card {
-  padding: 50px;
+  padding: 20px 50px;
 }
 
 .container {
   width: 400px;
-  height: 700px;
+  height: 600px;
   background: white; 
-  margin: auto;
+  margin: 10% auto;
 }
 
 .hero {
@@ -30,15 +35,41 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: hsl(225, 100%, 98%);
-  height: 100px;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.plan>a {
+  color: hsl(245, 75%, 52%);
+}
+
+.music-plan {
+  display: flex;
+  gap: 20px;
+}
+
+.music-img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 10px;
 }
 
 .payment {
-  height: 40px;
+  margin-top: 20px;
   border: 0px solid;
   border-radius: 10px;
   background: hsl(245, 75%, 52%);
-  text-align: center;
+}
 
+.payment p {
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+  color: white;
+}
+
+.cancel {
+  text-align: center;
+  padding: 30px;
 }

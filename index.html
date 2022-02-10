@@ -8,6 +8,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+  
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -23,13 +27,17 @@
         device anywhere you like!
       </div>
       <div class="plan">
-        <img src="images/icon-music.svg">
-        Annual Plan<br>
-        $59.99/year
+        <span class="music-plan">
+          <img class="music-img" src="images/icon-music.svg">
+          <p class="music-amount"><b>Annual Plan</b><br>
+            $59.99/year</p>
+        </span>
         <a href="" target="_blank">Change</a>
       </div>
-      <div class="payment"><p>Proceed to Payment</p></div>
-      <a href="" taget="_blank">Cancel Order</a>
+      <div class="payment">
+        <p>Proceed to Payment</p>
+      </div>
+      <div class="cancel">Cancel Order</div>
     </div>
   </div>
   <div class="attribution">
