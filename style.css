@@ -20,7 +20,7 @@ body {
 
 .container {
   width: 450px;
-  height: 650px;
+  height: 625px;
   background: white; 
   margin: 10% auto;
 }
@@ -90,8 +90,26 @@ body {
 }
 
 .cancel {
+  width: 100px;
+  margin: 30px auto;
   text-align: center;
-  padding: 30px;
   font-weight: 700;
   color:hsl(224, 25%, 42%);
+}
+
+/* active state of elements */
+.plan>a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.payment:hover {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 62%);
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color:hsl(224, 25%, 10%);
 }
