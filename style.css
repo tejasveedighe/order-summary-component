@@ -1,5 +1,6 @@
 * {
   font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
 }
 
 
@@ -29,6 +30,11 @@ body {
 .summary {
   text-align: center;
   padding: auto;
+}
+
+.summary>h1 {
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .plan {
